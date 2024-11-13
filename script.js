@@ -13,10 +13,10 @@ function firstNonRepeatedChar(str) {
         }
 
         if(found==false){
-            return str[i]
+            return str[i].tostring()
         }
     }
     return "null"
 }
-const input = prompt("Enter a string");
+const input = prompt("Enter a string")
 alert(firstNonRepeatedChar(input)); 
