@@ -6,14 +6,14 @@ function firstNonRepeatedChar(str) {
         let found=false;
 
         for(let j=0;j<n;j++){
-            if(str[i]==str[j] && i!=j){
+            if(str[i]===str[j] && i!=j){
                 found=true;
                 break;
             }
         }
 
         if(found==false){
-            return str[i].tostring()
+            return str[i]
         }
     }
     return "null"
