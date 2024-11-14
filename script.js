@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
     let n=str.length;
-	if(str=''){
+	if(!str){
 		return null
 	}
 
