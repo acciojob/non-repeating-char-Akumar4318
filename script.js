@@ -1,6 +1,9 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
     let n=str.length;
+	if(str=''){
+		return null
+	}
 
     for(let i=0;i<n;++i){
         let found=false;
